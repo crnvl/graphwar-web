@@ -3,6 +3,8 @@ import Image from 'next/image'
 
 export default function Home() {
 	return <>
-		<h1>Hello World</h1>
+		<div className='bg-custom-100 w-screen h-screen text-custom-400'>
+			<h1>Hello World</h1>
+		</div>
 	</>
 }
